@@ -8,7 +8,7 @@ exports.sendFax = (req, res) => {
     url: "https://api.telnyx.com/v2/faxes",
     data: qs.stringify({
       media_url:
-        "https://faxstorageaccount.blob.core.windows.net/attachemnts-demo/fb2ba938-b987-44a0-8d41-dcf7b68f8060.pdf?sv=2018-03-28&sr=b&sig=FxkkGYJ2Clpb5gwQIEM5pgXDMRjSCtR61a0rKIQyYKw%3D&spr=https%2Chttp&se=2021-05-18T06%3A15%3A01Z&sp=r",
+        "https://faxstorageaccount.blob.core.windows.net/attachemnts-demo/fb2ba938-b987-44a0-8d41-dcf7b68f8060.pdf?sv=2018-03-28&sr=b&sig=QzLuO9CcFAyVItaeyL5HwdoO8AKd8Ejep4EJ3vk6bWw%3D&spr=https%2Chttp&se=2021-05-18T07%3A54%3A14Z&sp=r",
       connection_id: "1603983059386893943",
       to: "+16478699079",
       from: "+14376007467",

@@ -1,0 +1,19 @@
+{
+    "mediaurl" : "@{variables('sasuri')}",
+    "faxto" : "@{triggerBody()?['subject']}"
+}
+
+{
+    "content": " {\n      \"mediaurl\" : \"https://faxstorageaccount.blob.core.windows.net/attachemnts-demo/Letter%20of%20Explanation.docx?sv=2018-03-28&sr=b&sig=niihOm7B5VWtvABmFeyKBzFr6qWpxYZrXYinc63ZHkU%3D&se=2021-05-15T02%3A15%3A07Z&sp=r\",\n      \"faxto\" : \"+12899031818\"\n  }",
+    "contenttype": "application/json",
+    "servicebusmessage": "{\"ContentData\":\"IHsKICAgICAgIm1lZGlhdXJsIiA6ICJodHRwczovL2ZheHN0b3JhZ2VhY2NvdW50LmJsb2IuY29yZS53aW5kb3dzLm5ldC9hdHRhY2hlbW50cy1kZW1vL0xldHRlciUyMG9mJTIwRXhwbGFuYXRpb24uZG9jeD9zdj0yMDE4LTAzLTI4JnNyPWImc2lnPW5paWhPbTdCNVZXdHZBQm1GZXlLQnpGcjZxV3B4WVpyWFlpbmM2M1pIa1UlM0Qmc2U9MjAyMS0wNS0xNVQwMiUzQTE1JTNBMDdaJnNwPXIiLAogICAgICAiZmF4dG8iIDogIisxMjg5OTAzMTgxOCIKICB9\",\"ContentType\":\"application/json\",\"ContentTransferEncoding\":\"Base64\",\"Properties\":{\"DeliveryCount\":\"1\",\"EnqueuedSequenceNumber\":\"0\",\"EnqueuedTimeUtc\":\"2021-05-14T02:15:08Z\",\"ExpiresAtUtc\":\"2021-05-28T02:15:08Z\",\"LockedUntilUtc\":\"2021-05-14T02:15:52Z\",\"LockToken\":\"b7387080-d685-43df-9171-3c414fff4ff8\",\"MessageId\":\"f11e7b157fd8432eb4c8555900e9bd6c\",\"ScheduledEnqueueTimeUtc\":\"0001-01-01T00:00:00Z\",\"SequenceNumber\":\"25\",\"Size\":\"394\",\"State\":\"Active\",\"TimeToLive\":\"12096000000000\"},\"MessageId\":\"f11e7b157fd8432eb4c8555900e9bd6c\",\"To\":null,\"ReplyTo\":null,\"ReplyToSessionId\":null,\"Label\":null,\"ScheduledEnqueueTimeUtc\":\"0001-01-01T00:00:00Z\",\"SessionId\":null,\"CorrelationId\":null,\"SequenceNumber\":25,\"LockToken\":\"b7387080-d685-43df-9171-3c414fff4ff8\",\"TimeToLive\":\"12096000000000\"}"
+  }
+
+  {
+    "mediaurl" : "https://faxstorageaccount.blob.core.windows.net/attachemnts-demo/dummy%20-%20Copy.pdf?sv=2018-03-28&sr=b&sig=t0MGTIWZmDIxgSlgKmJze99VzA0%2FRqj3N4L0rd9qJXY%3D&spr=https%2Chttp&se=2021-05-18T05%3A45%3A44Z&sp=r",
+    "faxto" : "+16478699079"
+}
+
+"content": " {\n      \"mediaurl\" : \"https://faxstorageaccount.blob.core.windows.net/attachemnts-demo/Letter%20of%20Explanation.docx?sv=2018-03-28&sr=b&sig=niihOm7B5VWtvABmFeyKBzFr6qWpxYZrXYinc63ZHkU%3D&se=2021-05-15T02%3A15%3A07Z&sp=r\",\n      \"faxto\" : \"+12899031818\"\n  }",
+
+https://webhook.site/0805b19f-15f3-4c26-9328-1a2a70a9b0b6

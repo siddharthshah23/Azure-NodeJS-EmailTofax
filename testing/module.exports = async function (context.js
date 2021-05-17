@@ -6,10 +6,8 @@ module.exports = async function (context, req) {
 
   const name = req.query.name || (req.body && req.body.mediaurl);
 
-  const emaildata = req.body.mediaurl;
-  const parsed = JSON.parse(emaildata);
-  const mediaurl = parsed.mediaurl;
-  const faxto = parsed.faxto;
+  const mediaurl = req.body.mediaurl;
+  const faxto = req.body.faxto;
 
   axios({
     method: "post",
